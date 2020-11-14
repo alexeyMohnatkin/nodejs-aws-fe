@@ -1,9 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Application
+
+Application is deployed to the cloudfront: [https://d21tkn9gbb6vp3.cloudfront.net/](https://d21tkn9gbb6vp3.cloudfront.net/)
+
 ## Available Scripts
 
-In the project directory, you can run:  
-You can use NPM instead of YARN (Up to you)  
+In the project directory, you can run:
+You can use NPM instead of YARN (Up to you)
 
 ### `yarn start` OR `npm run start`
 
