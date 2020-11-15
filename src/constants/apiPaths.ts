@@ -1,13 +1,11 @@
 
-const HOST = 'https://hu3on2ee5i.execute-api.eu-west-1.amazonaws.com';
-// const HOST = 'http://localhost:8080';
+const PRODUCT_API = 'https://hu3on2ee5i.execute-api.eu-west-1.amazonaws.com';
+const IMPORT_API = 'https://03gweslkx1.execute-api.eu-west-1.amazonaws.com';
 
 const API_PATHS = {
-  products: `${HOST}/dev/products`,
-  product: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
+  products: `${PRODUCT_API}/dev/products`,
   order: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
-  import: 'https://.execute-api.eu-west-1.amazonaws.com/dev',
-  bff: 'https://.execute-api.eu-west-1.amazonaws.com/dev'
+  import: `${IMPORT_API}/dev/import`,
 };
 
 export default API_PATHS;
